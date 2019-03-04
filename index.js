@@ -8,8 +8,8 @@ function findMatching(drivers, name) {
 }
 
 function findMatching (driver, string) {
-  return driver.filter(function (dName) {
-    return dName.toLowerCase() === string.toLowerCase();
+  return driver.filter(function (name) {
+    return name.toLowerCase() === string.toLowerCase();
   });
 }
 
