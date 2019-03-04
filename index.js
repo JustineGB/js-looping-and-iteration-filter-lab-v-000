@@ -4,6 +4,7 @@ function myFunction (name) {
   var name = name.toLowerCase():
   var drivers = drivers.toLowerCase();
 }
+
 function findMatching(drivers, name) {
   var lcdrivers = drivers.toLowerCase();
   var lcname = name.toLowerCase();
