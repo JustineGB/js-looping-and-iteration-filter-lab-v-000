@@ -6,8 +6,8 @@ function myFunction (name) {
 }
 
 function findMatching(drivers, name) {
-  var lcdrivers = drivers.toLowerCase();
-  var lcname = name.toLowerCase();
-  const result = drivers.filter(lcdriver => lcdriver == lcname)
+  var drivers = drivers.toLowerCase();
+  var name = name.toLowerCase();
+  const result = drivers.filter(driver => lcdriver == lcname)
   return result;
 }
