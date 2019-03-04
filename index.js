@@ -4,10 +4,10 @@ function findMatching (drivers, name) {
   });
 }
 
-// function fuzzyMatch(drivers, string) {
+function fuzzyMatch(drivers, string) {
 //   return drivers.filter(driver => driver.slice(0, string.length) === string)
-// }
+}
 
-// function matchName (drivers, name) {
+function matchName (drivers, name) {
 //   return drivers.filter(driver => driver.name === name)
-// }
+}
