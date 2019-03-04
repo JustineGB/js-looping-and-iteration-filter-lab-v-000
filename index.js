@@ -2,7 +2,7 @@
 
 function findMatching(drivers, name) {
   var name = new RegExp(drivers, 'gi');
-  return array.filter(function(name) { return name.match(string); });
+  return drivers.filter(function(name) { return name.match(name); });
 };
 
 // function fuzzyMatch(array, string) {
