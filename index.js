@@ -6,14 +6,11 @@
 // }
 
 function findMatching(drivers, name) {
-  var drivers = drivers.toLowerCase();
-  var name = name.toLowerCase();
+  var name = new RegExp
   const result = drivers.filter(driver => lcdriver == lcname)
   return result;
 }
 
-
-// Code your solution in this file
 function findMatching(array, string) {
   var string = new RegExp(string, 'gi');
   return array.filter(function(name) { return name.match(string); });
